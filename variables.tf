@@ -12,12 +12,12 @@ variable "resource_group_name" {
 
 variable "platform_update_domain_count" {
   description = "(Optional) Specifies the number of update domains that are used. Defaults to 5."
-  defaults    = 5
+  defaults    = "5"
 }
 
 variable "platform_fault_domain_count" {
   description = "(Optional) Specifies the number of fault domains that are used. Defaults to 3."
-  defaults    = 3
+  defaults    = "3"
 }
 
 variable "managed" {
