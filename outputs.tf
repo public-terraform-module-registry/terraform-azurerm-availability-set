@@ -1,4 +1,4 @@
-output "availability_set_name" {
+output "name" {
   value = "${azurerm_availability_set.availability_set.name}"
 }
 
@@ -10,6 +10,6 @@ output "location" {
   value = "${azurerm_availability_set.availability_set.localtion}"
 }
 
-output "availability_set_id" {
+output "id" {
   value = "${azurerm_availability_set.availability_set.id}"
 }
