@@ -7,7 +7,7 @@ output "resource_group_name" {
 }
 
 output "location" {
-  value = "${azurerm_availability_set.availability_set.localtion}"
+  value = "${azurerm_availability_set.availability_set.location}"
 }
 
 output "id" {
